@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A016EB17BE3783009E787C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A016EA17BE3783009E787C /* UIKit.framework */; };
+		52A016ED17BE3783009E787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A016EC17BE3783009E787C /* Foundation.framework */; };
+		52A016EF17BE3783009E787C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A016EE17BE3783009E787C /* CoreGraphics.framework */; };
+		52A016F517BE3783009E787C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A016F317BE3783009E787C /* InfoPlist.strings */; };
+		52A016F717BE3783009E787C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A016F617BE3783009E787C /* main.m */; };
+		52A016FB17BE3783009E787C /* MKADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A016FA17BE3783009E787C /* MKADAppDelegate.m */; };
+		52A016FD17BE3783009E787C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A016FC17BE3783009E787C /* Default.png */; };
+		52A016FF17BE3783009E787C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A016FE17BE3783009E787C /* Default@2x.png */; };
+		52A0170117BE3783009E787C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A0170017BE3783009E787C /* Default-568h@2x.png */; };
+		52A0170417BE3783009E787C /* MKADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0170317BE3783009E787C /* MKADViewController.m */; };
+		52A0170717BE3783009E787C /* MKADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A0170517BE3783009E787C /* MKADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52A016E717BE3783009E787C /* MakersNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakersNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A016EA17BE3783009E787C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52A016EC17BE3783009E787C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52A016EE17BE3783009E787C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52A016F217BE3783009E787C /* MakersNewsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakersNewsApp-Info.plist"; sourceTree = "<group>"; };
+		52A016F417BE3783009E787C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52A016F617BE3783009E787C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A016F817BE3783009E787C /* MakersNewsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakersNewsApp-Prefix.pch"; sourceTree = "<group>"; };
+		52A016F917BE3783009E787C /* MKADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKADAppDelegate.h; sourceTree = "<group>"; };
+		52A016FA17BE3783009E787C /* MKADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKADAppDelegate.m; sourceTree = "<group>"; };
+		52A016FC17BE3783009E787C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52A016FE17BE3783009E787C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		52A0170017BE3783009E787C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		52A0170217BE3783009E787C /* MKADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKADViewController.h; sourceTree = "<group>"; };
+		52A0170317BE3783009E787C /* MKADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKADViewController.m; sourceTree = "<group>"; };
+		52A0170617BE3783009E787C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A016E417BE3783009E787C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A016EB17BE3783009E787C /* UIKit.framework in Frameworks */,
+				52A016ED17BE3783009E787C /* Foundation.framework in Frameworks */,
+				52A016EF17BE3783009E787C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A016DE17BE3783009E787C = {
+			isa = PBXGroup;
+			children = (
+				52A016F017BE3783009E787C /* MakersNewsApp */,
+				52A016E917BE3783009E787C /* Frameworks */,
+				52A016E817BE3783009E787C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A016E817BE3783009E787C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A016E717BE3783009E787C /* MakersNewsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A016E917BE3783009E787C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A016EA17BE3783009E787C /* UIKit.framework */,
+				52A016EC17BE3783009E787C /* Foundation.framework */,
+				52A016EE17BE3783009E787C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52A016F017BE3783009E787C /* MakersNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				52A016F917BE3783009E787C /* MKADAppDelegate.h */,
+				52A016FA17BE3783009E787C /* MKADAppDelegate.m */,
+				52A0170217BE3783009E787C /* MKADViewController.h */,
+				52A0170317BE3783009E787C /* MKADViewController.m */,
+				52A0170517BE3783009E787C /* MKADViewController.xib */,
+				52A016F117BE3783009E787C /* Supporting Files */,
+			);
+			path = MakersNewsApp;
+			sourceTree = "<group>";
+		};
+		52A016F117BE3783009E787C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52A016F217BE3783009E787C /* MakersNewsApp-Info.plist */,
+				52A016F317BE3783009E787C /* InfoPlist.strings */,
+				52A016F617BE3783009E787C /* main.m */,
+				52A016F817BE3783009E787C /* MakersNewsApp-Prefix.pch */,
+				52A016FC17BE3783009E787C /* Default.png */,
+				52A016FE17BE3783009E787C /* Default@2x.png */,
+				52A0170017BE3783009E787C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A016E617BE3783009E787C /* MakersNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A0170A17BE3783009E787C /* Build configuration list for PBXNativeTarget "MakersNewsApp" */;
+			buildPhases = (
+				52A016E317BE3783009E787C /* Sources */,
+				52A016E417BE3783009E787C /* Frameworks */,
+				52A016E517BE3783009E787C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakersNewsApp;
+			productName = MakersNewsApp;
+			productReference = 52A016E717BE3783009E787C /* MakersNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A016DF17BE3783009E787C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MKAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aouled Miguil";
+			};
+			buildConfigurationList = 52A016E217BE3783009E787C /* Build configuration list for PBXProject "MakersNewsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52A016DE17BE3783009E787C;
+			productRefGroup = 52A016E817BE3783009E787C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A016E617BE3783009E787C /* MakersNewsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A016E517BE3783009E787C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A016F517BE3783009E787C /* InfoPlist.strings in Resources */,
+				52A016FD17BE3783009E787C /* Default.png in Resources */,
+				52A016FF17BE3783009E787C /* Default@2x.png in Resources */,
+				52A0170117BE3783009E787C /* Default-568h@2x.png in Resources */,
+				52A0170717BE3783009E787C /* MKADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A016E317BE3783009E787C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A016F717BE3783009E787C /* main.m in Sources */,
+				52A016FB17BE3783009E787C /* MKADAppDelegate.m in Sources */,
+				52A0170417BE3783009E787C /* MKADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52A016F317BE3783009E787C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A016F417BE3783009E787C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52A0170517BE3783009E787C /* MKADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A0170617BE3783009E787C /* en */,
+			);
+			name = MKADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A0170817BE3783009E787C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52A0170917BE3783009E787C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A0170B17BE3783009E787C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakersNewsApp/MakersNewsApp-Prefix.pch";
+				INFOPLIST_FILE = "MakersNewsApp/MakersNewsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52A0170C17BE3783009E787C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakersNewsApp/MakersNewsApp-Prefix.pch";
+				INFOPLIST_FILE = "MakersNewsApp/MakersNewsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A016E217BE3783009E787C /* Build configuration list for PBXProject "MakersNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A0170817BE3783009E787C /* Debug */,
+				52A0170917BE3783009E787C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A0170A17BE3783009E787C /* Build configuration list for PBXNativeTarget "MakersNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A0170B17BE3783009E787C /* Debug */,
+				52A0170C17BE3783009E787C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A016DF17BE3783009E787C /* Project object */;
+}
