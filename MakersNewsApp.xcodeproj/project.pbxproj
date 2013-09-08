@@ -18,6 +18,12 @@
 		52A0170117BE3783009E787C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A0170017BE3783009E787C /* Default-568h@2x.png */; };
 		52A0170417BE3783009E787C /* MKADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0170317BE3783009E787C /* MKADViewController.m */; };
 		52A0170717BE3783009E787C /* MKADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A0170517BE3783009E787C /* MKADViewController.xib */; };
+		52A0171017BE41CF009E787C /* MKADArticlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0170E17BE41CF009E787C /* MKADArticlesTableViewController.m */; };
+		52A0171117BE41CF009E787C /* MKADArticlesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A0170F17BE41CF009E787C /* MKADArticlesTableViewController.xib */; };
+		52A0171417BE655C009E787C /* MKArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0171317BE655C009E787C /* MKArticle.m */; };
+		52A0171817BE6EBB009E787C /* MKADArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0171617BE6EBB009E787C /* MKADArticleViewController.m */; };
+		52A0171917BE6EBB009E787C /* MKADArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A0171717BE6EBB009E787C /* MKADArticleViewController.xib */; };
+		52A0171B17BE7C3A009E787C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A0171A17BE7C3A009E787C /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,15 @@
 		52A0170217BE3783009E787C /* MKADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKADViewController.h; sourceTree = "<group>"; };
 		52A0170317BE3783009E787C /* MKADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKADViewController.m; sourceTree = "<group>"; };
 		52A0170617BE3783009E787C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKADViewController.xib; sourceTree = "<group>"; };
+		52A0170D17BE41CF009E787C /* MKADArticlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKADArticlesTableViewController.h; sourceTree = "<group>"; };
+		52A0170E17BE41CF009E787C /* MKADArticlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKADArticlesTableViewController.m; sourceTree = "<group>"; };
+		52A0170F17BE41CF009E787C /* MKADArticlesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKADArticlesTableViewController.xib; sourceTree = "<group>"; };
+		52A0171217BE655C009E787C /* MKArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKArticle.h; sourceTree = "<group>"; };
+		52A0171317BE655C009E787C /* MKArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKArticle.m; sourceTree = "<group>"; };
+		52A0171517BE6EBB009E787C /* MKADArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKADArticleViewController.h; sourceTree = "<group>"; };
+		52A0171617BE6EBB009E787C /* MKADArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKADArticleViewController.m; sourceTree = "<group>"; };
+		52A0171717BE6EBB009E787C /* MKADArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKADArticleViewController.xib; sourceTree = "<group>"; };
+		52A0171A17BE7C3A009E787C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A0171B17BE7C3A009E787C /* MessageUI.framework in Frameworks */,
 				52A016EB17BE3783009E787C /* UIKit.framework in Frameworks */,
 				52A016ED17BE3783009E787C /* Foundation.framework in Frameworks */,
 				52A016EF17BE3783009E787C /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +72,8 @@
 		52A016DE17BE3783009E787C = {
 			isa = PBXGroup;
 			children = (
+				52A0171217BE655C009E787C /* MKArticle.h */,
+				52A0171317BE655C009E787C /* MKArticle.m */,
 				52A016F017BE3783009E787C /* MakersNewsApp */,
 				52A016E917BE3783009E787C /* Frameworks */,
 				52A016E817BE3783009E787C /* Products */,
@@ -73,6 +91,7 @@
 		52A016E917BE3783009E787C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52A0171A17BE7C3A009E787C /* MessageUI.framework */,
 				52A016EA17BE3783009E787C /* UIKit.framework */,
 				52A016EC17BE3783009E787C /* Foundation.framework */,
 				52A016EE17BE3783009E787C /* CoreGraphics.framework */,
@@ -85,6 +104,12 @@
 			children = (
 				52A016F917BE3783009E787C /* MKADAppDelegate.h */,
 				52A016FA17BE3783009E787C /* MKADAppDelegate.m */,
+				52A0170D17BE41CF009E787C /* MKADArticlesTableViewController.h */,
+				52A0170E17BE41CF009E787C /* MKADArticlesTableViewController.m */,
+				52A0171517BE6EBB009E787C /* MKADArticleViewController.h */,
+				52A0171617BE6EBB009E787C /* MKADArticleViewController.m */,
+				52A0171717BE6EBB009E787C /* MKADArticleViewController.xib */,
+				52A0170F17BE41CF009E787C /* MKADArticlesTableViewController.xib */,
 				52A0170217BE3783009E787C /* MKADViewController.h */,
 				52A0170317BE3783009E787C /* MKADViewController.m */,
 				52A0170517BE3783009E787C /* MKADViewController.xib */,
@@ -164,6 +189,8 @@
 				52A016FF17BE3783009E787C /* Default@2x.png in Resources */,
 				52A0170117BE3783009E787C /* Default-568h@2x.png in Resources */,
 				52A0170717BE3783009E787C /* MKADViewController.xib in Resources */,
+				52A0171117BE41CF009E787C /* MKADArticlesTableViewController.xib in Resources */,
+				52A0171917BE6EBB009E787C /* MKADArticleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +204,9 @@
 				52A016F717BE3783009E787C /* main.m in Sources */,
 				52A016FB17BE3783009E787C /* MKADAppDelegate.m in Sources */,
 				52A0170417BE3783009E787C /* MKADViewController.m in Sources */,
+				52A0171017BE41CF009E787C /* MKADArticlesTableViewController.m in Sources */,
+				52A0171417BE655C009E787C /* MKArticle.m in Sources */,
+				52A0171817BE6EBB009E787C /* MKADArticleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
